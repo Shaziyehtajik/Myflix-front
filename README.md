@@ -32,13 +32,13 @@ To run the project locally, follow these steps:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/Shaziyehtajik/myflix-frontend.git
+    git clone https://github.com/Shaziyehtajik/myflix-front.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd myflix-frontend
+    cd myflix-front
     ```
 
 3. Install dependencies:
