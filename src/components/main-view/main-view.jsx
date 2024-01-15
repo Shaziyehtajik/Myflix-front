@@ -1,12 +1,11 @@
-import React from 'react';
+import React, { Component } from 'react';
 import axios from 'axios';
 
 import { MovieCard } from '../movie-card/movie-card';
 import { MovieView } from '../movie-view/movie-view';
 
-export class MainView extends React.Component {
-
-  constructor(){
+class MainView extends Component {
+  constructor() {
     super();
     this.state = {
       movies: [],
@@ -14,15 +13,20 @@ export class MainView extends React.Component {
     };
   }
 
-  componentDidMount(){
-    axios.get('https://myflix919.herokuapp.com/movies')
+  componentDidMount() {
+    this.fetchMovies();
+  }
+
+  fetchMovies() {
+    // Assuming movies.json is in the root of your project
+    axios.get('/videos.json')  
       .then(response => {
         this.setState({
           movies: response.data
         });
       })
       .catch(error => {
-        console.log(error);
+        console.error('Error fetching movies:', error);
       });
   }
 
@@ -32,20 +36,27 @@ export class MainView extends React.Component {
     });
   }
 
-  render() {
-    const { movies, selectedMovie } = this.state;
+  renderMovieCards() {
+    const { movies } = this.state;
+    return movies.map(movie => (
+      <MovieCard key={movie._id} movie={movie} onMovieClick={() => this.setSelectedMovie(movie)} />
+    ));
+  }
 
-    if(movies.length === 0) return <div className='main-view' />;
+  render() {
+    const { selectedMovie, movies } = this.state;
 
     return (
       <div className='main-view'>
         {selectedMovie
-        ? <MovieView movie={selectedMovie} onBackClick={newSelectedMovie => { this.setSelectedMovie(newSelectedMovie); }}/>
-        : movies.map(movie => (
-          <MovieCard key={movie._id} movie={movie} onMovieClick={(movie) => { this.setSelectedMovie(movie) }}/>
-        ))
-      }
+          ? <MovieView movie={selectedMovie} onBackClick={newSelectedMovie => this.setSelectedMovie(newSelectedMovie)} />
+          : (movies.length === 0
+            ? <div>No movies available.</div>
+            : this.renderMovieCards())
+        }
       </div>
     );
   }
 }
+
+export default MainView;
