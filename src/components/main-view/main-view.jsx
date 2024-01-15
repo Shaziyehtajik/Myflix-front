@@ -39,7 +39,7 @@ class MainView extends Component {
   renderMovieCards() {
     const { movies } = this.state;
     return movies.map(movie => (
-      <MovieCard key={movie._id} movie={movie} onMovieClick={() => this.setSelectedMovie(movie)} />
+      <MovieCard key={movie._id} movie={movie} onMovieClick={this.setSelectedMovie} />
     ));
   }
 
