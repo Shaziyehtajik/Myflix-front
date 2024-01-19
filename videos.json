@@ -1,75 +1,67 @@
-[{
-  "_id": {
-    "$oid": "65a2d9f7d94a20a7928eabe6"
+[
+  {
+    "_id": "65a2d9f7d94a20a7928eabe6",
+    "server": 1,
+    "name": "Waterfall in the Forest",
+    "file": "Waterfall_in_the_Forest.mp4",
+    "thumb": "https://myvideomyflix.s3.amazonaws.com/thumbnail/Waterfall_in_the_Forest.png",
+    "pic": "https://myvideomyflix.s3.amazonaws.com/pics/Waterfall_in_the_Forest.jpg",
+    "uuid": "90242f4d-b5fe-4cc7-bf0f-52a65f0a9384",
+    "title": "Nature's Beauty",
+    "category": "Nature",
+    "description": "Enjoy the serene beauty of a waterfall in the forest.",
+    "url": "https://myvideomyflix.s3.amazonaws.com/videos/Waterfall+in+the+Forest.mp4"
   },
-  "server": 1,
-  "name": "Waterfall in the Forest",
-  "file": "Waterfall_in_the_Forest.mp4",
-  "thumb": "Waterfall_in_the_Forest.png",
-  "pic": "Waterfall_in_the_Forest.jpg",
-  "uuid": "90242f4d-b5fe-4cc7-bf0f-52a65f0a9384",
-  "title": "Nature's Beauty",
-  "category": "Nature",
-  "description": "Enjoy the serene beauty of a waterfall in the forest.",
-  "url": "https://www.pexels.com/video/waterfall-in-the-forest-6394054/"
-},
-{
-  "_id": {
-    "$oid": "65a2d9f7d94a20a7928eabe7"
+  {
+    "_id": "65a2d9f7d94a20a7928eabe8",
+    "server": 3,
+    "name": "Happy New Year",
+    "file": "Happy_New_Year.mp4",
+    "thumb": "https://myvideomyflix.s3.amazonaws.com/thumbnail/Happy_New_Year.png",
+    "pic": "https://myvideomyflix.s3.amazonaws.com/pics/Happy_New_Year.jpg",
+    "uuid": "98a31850-0bf8-41b4-b02b-5d4909a1872d",
+    "title": "New Year Celebration",
+    "category": "Celebration",
+    "description": "Celebrate the joyous moments of the New Year.",
+    "url": "https://myvideomyflix.s3.amazonaws.com/videos/Happy+New+Year.mp4"
   },
-  "server": 2,
-  "name": "Scrabble Tiles Spelling The Word MOVIE",
-  "file": "Scrabble_Tiles_Spelling_The_Word_MOVIE.mp4",
-  "thumb": "Scrabble_Tiles_Spelling_The_Word_MOVIE.png",
-  "pic": "Scrabble_Tiles_Spelling_The_Word_MOVIE.jpg",
-  "uuid": "d1a17d05-e8c7-4c50-843d-6b69339f32ec",
-  "title": "Word Play Fun",
-  "category": "Entertainment",
-  "description": "A creative arrangement of Scrabble tiles spelling the word MOVIE.",
-  "url": "https://www.pexels.com/video/scrabble-tiles-spelling-the-word-movie-5651593/"
-},
-{
-  "_id": {
-    "$oid": "65a2d9f7d94a20a7928eabe8"
+  {
+    "_id": "65a2d9f7d94a20a7928eabe7",
+    "server": 2,
+    "name": "Scrabble Tiles Spelling The Word MOVIE",
+    "file": "Scrabble_Tiles_Spelling_The_Word_MOVIE.mp4",
+    "thumb": "https://myvideomyflix.s3.amazonaws.com/thumbnail/Scrabble_Tiles_Spelling_The_Word_MOVIE.png",
+    "pic": "https://myvideomyflix.s3.amazonaws.com/pics/Scrabble_Tiles_Spelling_The_Word_MOVIE.jpg",
+    "uuid": "d1a17d05-e8c7-4c50-843d-6b69339f32ec",
+    "title": "Word Play Fun",
+    "category": "Entertainment",
+    "description": "A creative arrangement of Scrabble tiles spelling the word MOVIE.",
+    "url": "https://myvideomyflix.s3.amazonaws.com/videos/Scrabble+Tiles+Spelling+The+Word+MOVIE.mp4"
   },
-  "server": 3,
-  "name": "Happy New Year",
-  "file": "Happy_New_Year.mp4",
-  "thumb": "Happy_New_Year.png",
-  "pic": "Happy_New_Year.jpg",
-  "uuid": "98a31850-0bf8-41b4-b02b-5d4909a1872d",
-  "title": "New Year Celebration",
-  "category": "Celebration",
-  "description": "Celebrate the joyous moments of the New Year.",
-  "url": "https://www.pexels.com/video/happy-new-year-written-with-sparkles-6149002/"
-},
-{
-  "_id": {
-    "$oid": "65a2d9f7d94a20a7928eabe9"
+  {
+    "_id": "65a2d9f7d94a20a7928eabe9",
+    "server": 4,
+    "name": "Lotus Dancing in the Wind",
+    "file": "lotus_dancing_in_the_wind.mp4",
+    "thumb": "https://myvideomyflix.s3.amazonaws.com/thumbnail/lotus_dancing_in_the_wind.png",
+    "pic": "https://myvideomyflix.s3.amazonaws.com/pics/lotus_dancing_in_the_wind.jpg",
+    "uuid": "7c1c7a9b-2e67-4e29-8c74-690693eabbb9",
+    "title": "Dancing Lotus",
+    "category": "Nature",
+    "description": "Experience the mesmerizing dance of lotus flowers in the wind.",
+    "url": "https://myvideomyflix.s3.amazonaws.com/videos/lotus_dancing_in_the_wind.mp4"
   },
-  "server": 4,
-  "name": "Lotus Dancing in the Wind",
-  "file": "lotus_dancing_in_the_wind.mp4",
-  "thumb": "lotus_dancing_in_the_wind.png",
-  "pic": "lotus_dancing_in_the_wind.jpg",
-  "uuid": "7c1c7a9b-2e67-4e29-8c74-690693eabbb9",
-  "title": "Dancing Lotus",
-  "category": "Nature",
-  "description": "Experience the mesmerizing dance of lotus flowers in the wind.",
-  "url": "https://www.pexels.com/video/lotus-dancing-in-the-wind-854695/"
-},
-{
-  "_id": {
-    "$oid": "65a2d9f7d94a20a7928eabea"
-  },
-  "server": 5,
-  "name": "A Person Preparing a Waffle",
-  "file": "a-person-preparing-a-waffle.mp4",
-  "thumb": "a-person-preparing-a-waffle.png",
-  "pic": "a-person-preparing-a-waffle.jpg",
-  "uuid": "508fd8e1-4e52-43d5-b4e6-289149a6d72a",
-  "title": "Waffle Delight",
-  "category": "Cooking",
-  "description": "Witness the delicious process of preparing a waffle.",
-  "url": "https://www.pexels.com/video/a-person-preparing-a-waffle-7141776/"
-}]
+  {
+    "_id": "65a5bb8805e43567430980d2",
+    "server": 5,
+    "name": "A Person Preparing a Waffle",
+    "file": "a-person-preparing-a-waffle.mp4",
+    "thumb": "https://myvideomyflix.s3.amazonaws.com/thumbnail/a-person-preparing-a-waffle.png",
+    "pic": "https://myvideomyflix.s3.amazonaws.com/pics/a-person-preparing-a-waffle.jpg",
+    "uuid": "508fd8e1-4e52-43d5-b4e6-289149a6d72a",
+    "title": "Waffle Delight",
+    "category": "Cooking",
+    "description": "Witness the delicious process of preparing a waffle.",
+    "url": "https://myvideomyflix.s3.amazonaws.com/videos/a-person-preparing-a-waffle.mp4"
+  }
+]
