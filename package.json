@@ -4,6 +4,8 @@
   "description": "Frontend of myFlix App",
   "main": "index.js",
   "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,8 +31,8 @@
     "node": ">=21.1.0"
   },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": "> 0.2%, not dead, not ie <= 11, not op_mini all"
